@@ -1,0 +1,15 @@
+env:
+  num_slots: 5
+  num_actions: 20
+alg:
+  sample_size: 5000000
+  num_runs: 10
+  eval_eps: 0.01
+  eval_optimal: True
+estimators:
+  num_bins: 50
+  normalized: False
+exp:
+  log_data: True
+  plot_data: False
+  name: sample_5e6_evalr

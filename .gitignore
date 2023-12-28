@@ -1,0 +1,8 @@
+__pycache__/
+*/__pycache__/
+data/*.csv
+# data/*.pkl
+data/*.npz
+*.DS_Store
+.vscode
+exps/

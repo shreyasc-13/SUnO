@@ -1,0 +1,19 @@
+env:
+  num_slots: 3
+  num_actions: 10
+alg:
+  sample_size: 10000000
+  num_runs: 10
+  # eval_eps: 0.01
+  eval_optimal: True
+obp:
+  context_size: 5
+  reward_structure: cascade_additive
+  reward_type: continuous
+estimators:
+  num_bins: 50
+  normalized: False
+exp:
+  log_data: True
+  plot_data: True
+  name: context5/samples_1e7_a3s10cont_cas_additive
